@@ -1,0 +1,8 @@
+#interface 152.16.0.2
+#interface 151.0.2.1
+#name edge
+
+accept	any 0.0.0.0 0.0.0.0 any 0.0.0.0 0.0.0.0 any 2
+accept	any 0.0.0.0 0.0.0.0 any 0.0.0.0 0.0.0.0 any 1
+deny 	any 0.0.0.0 0.0.0.0 any 0.0.0.0 0.0.0.0 any 1
+deny 	any 0.0.0.0 0.0.0.0 any 0.0.0.0 0.0.0.0 any 2
